@@ -1,0 +1,128 @@
+{
+  "format": "ZDZ Enhanced Chat Export",
+  "format_version": "synthetic-test-1",
+  "synthetic": true,
+  "chat_id": "synthetic_group",
+  "participants": [
+    {
+      "id": "group_p0",
+      "display_name": "Luvori"
+    },
+    {
+      "id": "group_p1",
+      "display_name": "Luvori"
+    },
+    {
+      "id": "group_p2",
+      "display_name": "Luvora"
+    },
+    {
+      "id": "group_p3",
+      "display_name": "Nimelu"
+    }
+  ],
+  "messages": [
+    {
+      "id": "group_m0",
+      "source_ref": "group:src:0",
+      "sender": "group_p2",
+      "timestamp": "2026-03-01T19:00:00+01:00",
+      "type": "text",
+      "text": "Wer kommt mit zum Bastelabend?",
+      "own_segments": [
+        {
+          "text": "Wer kommt mit zum Bastelabend?",
+          "language": "de"
+        }
+      ],
+      "reply_to": null,
+      "label": "planning_question",
+      "topic": "new_topic"
+    },
+    {
+      "id": "group_m1",
+      "source_ref": "group:src:1",
+      "sender": "group_p0",
+      "timestamp": "2026-03-01T19:02:00+01:00",
+      "type": "text",
+      "text": "Luvora, ich komme mit.",
+      "own_segments": [
+        {
+          "text": "Luvora, ich komme mit.",
+          "language": "de"
+        }
+      ],
+      "reply_to": "group_m0",
+      "label": "direct_name_address",
+      "topic": "topic_response"
+    },
+    {
+      "id": "group_m2",
+      "source_ref": "group:src:2",
+      "sender": "group_p1",
+      "timestamp": "2026-03-01T19:04:00+01:00",
+      "type": "text",
+      "text": "Meine Schwester zieht nach Wolkenhain.",
+      "own_segments": [
+        {
+          "text": "Meine Schwester zieht nach Wolkenhain.",
+          "language": "de"
+        }
+      ],
+      "reply_to": null,
+      "label": "third_party_event",
+      "topic": "new_topic"
+    },
+    {
+      "id": "group_m3",
+      "source_ref": "group:src:3",
+      "sender": "group_p3",
+      "timestamp": "2026-03-01T19:06:00+01:00",
+      "type": "text",
+      "text": "Ich kann erst später.",
+      "own_segments": [
+        {
+          "text": "Ich kann erst später.",
+          "language": "de"
+        }
+      ],
+      "reply_to": null,
+      "label": "none",
+      "topic": "topic_response"
+    },
+    {
+      "id": "group_m4",
+      "source_ref": "group:src:4",
+      "sender": "group_p0",
+      "timestamp": "2026-03-01T19:08:00+01:00",
+      "type": "text",
+      "text": "Luvori, passt Freitag für dich?",
+      "own_segments": [
+        {
+          "text": "Luvori, passt Freitag für dich?",
+          "language": "de"
+        }
+      ],
+      "reply_to": null,
+      "label": "planning_question",
+      "topic": "new_topic"
+    },
+    {
+      "id": "group_m5",
+      "source_ref": "group:src:5",
+      "sender": "group_p1",
+      "timestamp": "2026-03-01T19:10:00+01:00",
+      "type": "text",
+      "text": "Ja, Freitag passt.",
+      "own_segments": [
+        {
+          "text": "Ja, Freitag passt.",
+          "language": "de"
+        }
+      ],
+      "reply_to": "group_m4",
+      "label": "agreement",
+      "topic": "topic_response"
+    }
+  ]
+}

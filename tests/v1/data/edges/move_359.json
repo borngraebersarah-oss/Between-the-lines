@@ -1,0 +1,24 @@
+{
+  "id": "move_359",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "move_359_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Bis später"
+    },
+    {
+      "id": "move_359_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T15:59:00+01:00",
+      "type": "text",
+      "text": "Hallo, neues Thema"
+    }
+  ],
+  "expected": {
+    "gap_minutes": 239,
+    "pause_alone_restart_candidate": false
+  }
+}

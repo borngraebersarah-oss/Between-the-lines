@@ -1,0 +1,187 @@
+{
+  "format": "ZDZ Enhanced Chat Export",
+  "format_version": "synthetic-test-1",
+  "production_format": false,
+  "synthetic": true,
+  "chat_id": "synthetic_a",
+  "participants": [
+    {
+      "id": "synthetic_a_p0",
+      "display_name": "Fennilo",
+      "fictional": true
+    },
+    {
+      "id": "synthetic_a_p1",
+      "display_name": "Velumi",
+      "fictional": true
+    }
+  ],
+  "coverage": {
+    "from": "2026-01-01",
+    "to": "2026-06-30",
+    "complete_calendar_days": true,
+    "time_basis": "fixed +01:00; explicitly synthetic, no DST inference"
+  },
+  "capabilities": {
+    "source_ids": true,
+    "replies": "partial declared",
+    "reactions": "complete synthetic snapshot",
+    "edit_history": "current revision only",
+    "deleted_status": true
+  },
+  "messages": [
+    {
+      "id": "synthetic_a_m00005",
+      "source_ref": "synthetic_a:src:5",
+      "sender": "synthetic_a_p0",
+      "timestamp": "2026-01-01T19:14:00+01:00",
+      "timestamp_precision": "minute",
+      "type": "text",
+      "text": "Danke, das hilft mir echt",
+      "own_segments": [
+        {
+          "text": "Danke, das hilft mir echt",
+          "language": "de"
+        }
+      ],
+      "media": {
+        "present": false,
+        "type": null,
+        "content_available": false,
+        "caption": null
+      },
+      "reply_to": "synthetic_a_m00004",
+      "quote": null,
+      "reactions": [],
+      "edit": {
+        "edited": false,
+        "revision": 1
+      },
+      "deleted": false,
+      "language": "de"
+    },
+    {
+      "id": "synthetic_a_m00006",
+      "source_ref": "synthetic_a:src:6",
+      "sender": "synthetic_a_p1",
+      "timestamp": "2026-01-01T19:16:00+01:00",
+      "timestamp_precision": "minute",
+      "type": "deleted",
+      "text": "Diese Nachricht wurde gelöscht.",
+      "own_segments": [],
+      "media": {
+        "present": false,
+        "type": null,
+        "content_available": false,
+        "caption": null
+      },
+      "reply_to": null,
+      "quote": null,
+      "reactions": [],
+      "edit": {
+        "edited": false,
+        "revision": 1
+      },
+      "deleted": true,
+      "language": "de"
+    },
+    {
+      "id": "synthetic_a_m00007",
+      "source_ref": "synthetic_a:src:7",
+      "sender": "synthetic_a_p0",
+      "timestamp": "2026-01-01T23:57:00+01:00",
+      "timestamp_precision": "minute",
+      "type": "text",
+      "text": "Wie lief dein Projekt heute?",
+      "own_segments": [
+        {
+          "text": "Wie lief dein Projekt heute?",
+          "language": "de"
+        }
+      ],
+      "media": {
+        "present": false,
+        "type": null,
+        "content_available": false,
+        "caption": null
+      },
+      "reply_to": null,
+      "quote": null,
+      "reactions": [],
+      "edit": {
+        "edited": false,
+        "revision": 1
+      },
+      "deleted": false,
+      "language": "de"
+    },
+    {
+      "id": "synthetic_a_m00008",
+      "source_ref": "synthetic_a:src:8",
+      "sender": "synthetic_a_p1",
+      "timestamp": "2026-01-02T07:16:00+01:00",
+      "timestamp_precision": "minute",
+      "type": "text",
+      "text": "Wie lief dein Projekt heute?",
+      "own_segments": [
+        {
+          "text": "Wie lief dein Projekt heute?",
+          "language": "de"
+        }
+      ],
+      "media": {
+        "present": false,
+        "type": null,
+        "content_available": false,
+        "caption": null
+      },
+      "reply_to": null,
+      "quote": null,
+      "reactions": [],
+      "edit": {
+        "edited": false,
+        "revision": 1
+      },
+      "deleted": false,
+      "language": "de"
+    },
+    {
+      "id": "synthetic_a_new",
+      "source_ref": "synthetic_a:src:new",
+      "sender": "synthetic_a_p0",
+      "timestamp": "2026-07-01T19:30:00+01:00",
+      "timestamp_precision": "minute",
+      "type": "text",
+      "text": "Unser neuer Monat beginnt mit einer Liste",
+      "own_segments": [
+        {
+          "text": "Unser neuer Monat beginnt mit einer Liste",
+          "language": "de"
+        }
+      ],
+      "media": {
+        "present": false,
+        "type": null,
+        "content_available": false,
+        "caption": null
+      },
+      "reply_to": null,
+      "quote": null,
+      "reactions": [
+        {
+          "id": "react:synthetic_a_m00001",
+          "actor": "synthetic_a_p1",
+          "emoji": "😂",
+          "timestamp": null,
+          "status": "source-confirmed"
+        }
+      ],
+      "edit": {
+        "edited": false,
+        "revision": 1
+      },
+      "deleted": false,
+      "language": "de"
+    }
+  ]
+}

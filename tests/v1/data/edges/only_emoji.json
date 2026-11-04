@@ -1,0 +1,26 @@
+{
+  "id": "only_emoji",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "only_emoji_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "😂😂"
+    },
+    {
+      "id": "only_emoji_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:02:00+01:00",
+      "type": "text",
+      "text": "👍🏽"
+    }
+  ],
+  "expected": {
+    "message_count": 2,
+    "emoji_occurrences": 3,
+    "words": 0,
+    "short_answer_denominator": 0
+  }
+}

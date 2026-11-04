@@ -1,0 +1,17 @@
+{
+  "id": "short_4",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "short_4_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Ja aber erst morgen"
+    }
+  ],
+  "expected": {
+    "word_tokens": 4,
+    "short": false
+  }
+}

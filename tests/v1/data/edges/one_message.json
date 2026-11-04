@@ -1,0 +1,19 @@
+{
+  "id": "one_message",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "one_message_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    }
+  ],
+  "expected": {
+    "message_count": 1,
+    "streak": 1,
+    "response": "not-applicable",
+    "silence": "insufficient-data"
+  }
+}

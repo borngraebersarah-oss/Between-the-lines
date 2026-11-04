@@ -1,0 +1,25 @@
+{
+  "id": "move_400",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "move_400_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Bis später"
+    },
+    {
+      "id": "move_400_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T16:00:00+01:00",
+      "type": "text",
+      "text": "Hallo, neues Thema"
+    }
+  ],
+  "expected": {
+    "gap_minutes": 240,
+    "restart_candidate": true,
+    "not_automatically_confirmed": true
+  }
+}

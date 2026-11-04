@@ -1,0 +1,263 @@
+[
+  {
+    "test_id": "IMP-identical",
+    "fixture": "imports/identical.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 8,
+      "new": 0,
+      "preserve_ids": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-renamed_identical",
+    "fixture": "imports/renamed_identical.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 8,
+      "new": 0,
+      "filename_irrelevant": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-later_full",
+    "fixture": "imports/later_full.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 9,
+      "new": 1,
+      "chat_end": "2026-07-01"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-overlap",
+    "fixture": "imports/overlap.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 9,
+      "new": 1,
+      "old_missing_retained": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-add",
+    "fixture": "imports/add.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 9,
+      "new": 1,
+      "old_missing_retained": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-replace",
+    "fixture": "imports/replace.json",
+    "base": "imports/base.json",
+    "action": "replace",
+    "expected": {
+      "canonical_count": 4,
+      "removed": 5,
+      "unresolved_corrections": [
+        "synthetic_a_m00001"
+      ],
+      "events_context_preserved": true,
+      "no_one_click_undo": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-source_id_later",
+    "fixture": "imports/source_id_later.json",
+    "base": "imports/base_standard.txt",
+    "action": "after standard import",
+    "expected": {
+      "same_app_ids": true,
+      "new_native_references": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-edit",
+    "fixture": "imports/edit.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 8,
+      "same_id": true,
+      "content_correction": "review",
+      "original_send_time_retained": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-deleted",
+    "fixture": "imports/deleted.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 8,
+      "lost_content_not_reconstructed": true,
+      "content_evidence": "unresolved/review"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-missing_add",
+    "fixture": "imports/missing_add.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "canonical_count": 8,
+      "absence_not_deletion": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-missing_replace",
+    "fixture": "imports/missing_replace.json",
+    "base": "imports/base.json",
+    "action": "replace",
+    "expected": {
+      "canonical_count": 6,
+      "removed": 2,
+      "absence_not_messenger_deletion": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-conflicting_version",
+    "fixture": "imports/conflicting_version.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "commit": false,
+      "current_count": 8,
+      "review": "version order; user may explicitly select app current version"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-missing_time",
+    "fixture": "imports/missing_time.json",
+    "base": "imports/base.json",
+    "action": "new chat",
+    "expected": {
+      "calendar_results": "insufficient-data",
+      "no_system_date": true,
+      "commit": "after independent participant/identity confirmation"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-date_only",
+    "fixture": "imports/date_only.json",
+    "base": "imports/base.json",
+    "action": "new chat",
+    "expected": {
+      "hours": "insufficient-data",
+      "calendar": "available",
+      "no_midnight": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-unknown_sender",
+    "fixture": "imports/unknown_sender.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "commit": false,
+      "reason": "unresolved participant"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-alias",
+    "fixture": "imports/alias.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "participant_ids_preserved": true,
+      "alias_review_if_not_proven": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-equal_names",
+    "fixture": "imports/equal_names.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "distinct_participant_ids": true,
+      "no_name_merge": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-corrupt_line",
+    "fixture": "imports/corrupt_line.txt",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "commit": false,
+      "reason": "no valid date/time under declared single-line synthetic profile; never repair to system date"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-unknown_version",
+    "fixture": "imports/unknown_version.json",
+    "base": "imports/base.json",
+    "action": "add",
+    "expected": {
+      "commit": false,
+      "reason": "unsupported format"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-empty",
+    "fixture": "imports/empty.txt",
+    "base": "imports/base.json",
+    "action": "replace",
+    "expected": {
+      "commit": false,
+      "delete_chat": false
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-broken-zip",
+    "fixture": "imports/broken.zip",
+    "expected": {
+      "commit": false,
+      "error": "malformed source"
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-multiple-txt",
+    "fixture": "imports/two_chats.zip",
+    "expected": {
+      "requires_explicit_chat_selection": true,
+      "no_merge": true
+    },
+    "status": "blocked by implementation"
+  },
+  {
+    "test_id": "IMP-group",
+    "fixture": "group/chat_abcd_enhanced.json",
+    "expected_fixture": "group/ground_truth.json",
+    "status": "blocked by implementation"
+  }
+]

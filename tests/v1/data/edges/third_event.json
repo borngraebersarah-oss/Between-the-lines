@@ -1,0 +1,25 @@
+{
+  "id": "third_event",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "third_event_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Meine Schwester fährt nach Wolkenhain"
+    },
+    {
+      "id": "third_event_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:02:00+01:00",
+      "type": "text",
+      "text": "Wir beide fahren nach Wolkenhain"
+    }
+  ],
+  "expected": {
+    "first_is_dyadic_plan": false,
+    "second_is_candidate": true,
+    "neither_auto_confirmed": true
+  }
+}

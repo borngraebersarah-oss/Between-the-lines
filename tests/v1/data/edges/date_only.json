@@ -1,0 +1,30 @@
+{
+  "id": "date_only",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "date_only_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01",
+      "type": "text",
+      "text": "Hallo",
+      "timestamp_precision": "date"
+    },
+    {
+      "id": "date_only_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02",
+      "type": "text",
+      "text": "Guten Abend",
+      "timestamp_precision": "date"
+    }
+  ],
+  "expected": {
+    "timestamps": [
+      "2026-01-01",
+      "2026-01-02"
+    ],
+    "streak": 2,
+    "prime": "insufficient-data"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sarcastic_social",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "sarcastic_social_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Schon wieder alles kaputt."
+    },
+    {
+      "id": "sarcastic_social_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:02:00+01:00",
+      "type": "text",
+      "text": "Ja, klar..."
+    }
+  ],
+  "expected": {
+    "agreement": "uncertain",
+    "automatic": false
+  }
+}

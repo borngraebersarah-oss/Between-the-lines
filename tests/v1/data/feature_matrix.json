@@ -1,0 +1,1106 @@
+[
+  {
+    "feature_id": "prime",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L98",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L99",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L100",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L101",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L102",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L103",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L104",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L105"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L98",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L100",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L101",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L103"
+    ]
+  },
+  {
+    "feature_id": "weekday",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L182",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L183",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L184",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L185",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L186",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L187",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L188",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L189"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L182",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L184",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L185",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L187"
+    ]
+  },
+  {
+    "feature_id": "streak",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L265",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L266",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L267",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L268",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L269",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L270",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L271",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L272",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L273"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L265",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L267",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L268",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L270"
+    ]
+  },
+  {
+    "feature_id": "peak",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L351",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L352",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L353",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L354",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L355",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L356",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L357",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L358",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L359"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L351",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L353",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L354",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L356"
+    ]
+  },
+  {
+    "feature_id": "texting",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L433",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L434",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L435",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L436",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L437",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L438",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L439",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L440",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L441"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L433",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L435",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L438"
+    ]
+  },
+  {
+    "feature_id": "emoji",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L517",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L518",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L519",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L520",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L521",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L522",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L523",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L524",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L525"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L517",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L519",
+      "CONTRACT-ANALYSIS_CONTRACTS_FREE_V1-L522"
+    ]
+  },
+  {
+    "feature_id": "hotcold",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/hotcold_14.json",
+      "edges/hotcold_13.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L103",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L104",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L105",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L106",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L107",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L108",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L109",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L110"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L103",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L105",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L106"
+    ]
+  },
+  {
+    "feature_id": "silence",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L178",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L179",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L180",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L181",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L182",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L183",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L184"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L178",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L180",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L181",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L183"
+    ]
+  },
+  {
+    "feature_id": "move",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L252",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L253",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L254",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L255",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L256",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L257",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L258",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L259"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L252",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L254",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L255",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L257",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L258"
+    ]
+  },
+  {
+    "feature_id": "response",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L327",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L328",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L329",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L330",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L331",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L332",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L333",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L334"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L327",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L329",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L330",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L331",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L332"
+    ]
+  },
+  {
+    "feature_id": "firstlast",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L402",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L403",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L404",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L405",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L406",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L407",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L408",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L409",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L410"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L402",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L404",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L405",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L409"
+    ]
+  },
+  {
+    "feature_id": "longstory",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/short_3.json",
+      "edges/short_4.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L480",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L481",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L482",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L483",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L484",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L485",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L486",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L487"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L480",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L482",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L483",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L485"
+    ]
+  },
+  {
+    "feature_id": "words",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/signature_99.json",
+      "edges/signature_100.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L566",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L567",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L568",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L569",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L570",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L571",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L572",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L573",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L574",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L575"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L566",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L568",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L569"
+    ]
+  },
+  {
+    "feature_id": "pulse",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L649",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L650",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L651",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L652",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L653",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L654",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L655",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L656"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L649",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L651",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L652"
+    ]
+  },
+  {
+    "feature_id": "deepdive",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "not applicable to deterministic formula",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L734",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L735",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L736",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L737",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L738",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L739",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L740",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L741",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L742"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L734",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L736",
+      "CONTRACT-ANALYSIS_CONTRACTS_BASIC_V1-L737"
+    ]
+  },
+  {
+    "feature_id": "questions",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L131",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L132",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L133",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L134",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L135",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L136",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L137",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L138",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L139",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L140",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L141",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L142"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L132",
+    "boundary_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L135",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L138",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L139"
+    ]
+  },
+  {
+    "feature_id": "names",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L232",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L233",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L234",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L235",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L236",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L237",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L238",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L239",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L240",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L241",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L242"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L233",
+    "boundary_cases": [
+      "gold/class_challenges.json#names:boundary",
+      "gold/class_challenges.json#names:uncertain"
+    ]
+  },
+  {
+    "feature_id": "topics",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L334",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L335",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L336",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L337",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L338",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L339",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L340",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L341",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L342",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L343",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L344"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L335",
+    "boundary_cases": [
+      "gold/class_challenges.json#topics:boundary",
+      "gold/class_challenges.json#topics:uncertain"
+    ]
+  },
+  {
+    "feature_id": "social",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L431",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L432",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L433",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L434",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L435",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L436",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L437",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L438",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L439",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L440",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L441",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L442"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L432",
+    "boundary_cases": [
+      "gold/class_challenges.json#social:boundary",
+      "gold/class_challenges.json#social:uncertain"
+    ]
+  },
+  {
+    "feature_id": "lifeevents",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L545",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L546",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L547",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L548",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L549",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L550",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L551",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L552",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L553",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L554",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L555",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L556"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L546",
+    "boundary_cases": [
+      "gold/class_challenges.json#lifeevents:boundary",
+      "gold/class_challenges.json#lifeevents:uncertain"
+    ]
+  },
+  {
+    "feature_id": "humor",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L648",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L649",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L650",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L651",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L652",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L653",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L654",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L655",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L656",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L657",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L658",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L659"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L649",
+    "boundary_cases": [
+      "gold/class_challenges.json#humor:boundary",
+      "gold/class_challenges.json#humor:uncertain"
+    ]
+  },
+  {
+    "feature_id": "topicstarts",
+    "main_a": "main/chat_a_ground_truth.json",
+    "main_b": "main/chat_b_ground_truth.json",
+    "main_c": "main/chat_c_ground_truth.json",
+    "group": "group/ground_truth.json",
+    "edges": [
+      "edges/one_message.json"
+    ],
+    "standard": "main/chat_a_standard.txt",
+    "enhanced": "main/chat_a_enhanced.json",
+    "periods": [
+      "all",
+      "7d",
+      "30d",
+      "3m",
+      "12m",
+      "custom"
+    ],
+    "correction": "EVIDENCE_CORRECTION_REANALYSIS_V1.md §32–34",
+    "add": "imports/add.json",
+    "replace": "imports/replace.json",
+    "evidence": "exact IDs/full membership/no mixed versions",
+    "mobile": [
+      "390x844",
+      "430x932",
+      "1024x768"
+    ],
+    "positive": "main expected result or explicit semantic gold",
+    "boundary": "empty scoped set + feature-specific contract cases in acceptance_mapping.json",
+    "ai_quality": "independent real-language gate required",
+    "status": "blocked by implementation",
+    "contract_cases": [
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L749",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L750",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L751",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L752",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L753",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L754",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L755",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L756",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L757",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L758",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L759",
+      "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L760"
+    ],
+    "positive_case": "CONTRACT-ANALYSIS_CONTRACTS_SEMANTIC_V1-L750",
+    "boundary_cases": [
+      "gold/class_challenges.json#topicstarts:boundary",
+      "gold/class_challenges.json#topicstarts:uncertain"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "id": "insider_3",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "insider_3_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Unser Wolkenknödel!"
+    },
+    {
+      "id": "insider_3_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02T12:00:00+01:00",
+      "type": "text",
+      "text": "Wolkenknödel, klar"
+    },
+    {
+      "id": "insider_3_m2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-03T12:00:00+01:00",
+      "type": "text",
+      "text": "Der krumme Kuchen ist wieder ein Wolkenknödel"
+    }
+  ],
+  "expected": {
+    "acts": 3,
+    "blocks": 3,
+    "authors": 2,
+    "shared_reference": true,
+    "requires_user_review": true
+  }
+}

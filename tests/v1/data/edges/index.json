@@ -1,0 +1,258 @@
+[
+  {
+    "test_id": "EDGE-one_message",
+    "fixture": "edges/one_message.json",
+    "expected": {
+      "message_count": 1,
+      "streak": 1,
+      "response": "not-applicable",
+      "silence": "insufficient-data"
+    }
+  },
+  {
+    "test_id": "EDGE-only_media",
+    "fixture": "edges/only_media.json",
+    "expected": {
+      "message_count": 2,
+      "words": 0,
+      "emoji": 0,
+      "longstory": "not-applicable"
+    }
+  },
+  {
+    "test_id": "EDGE-only_emoji",
+    "fixture": "edges/only_emoji.json",
+    "expected": {
+      "message_count": 2,
+      "emoji_occurrences": 3,
+      "words": 0,
+      "short_answer_denominator": 0
+    }
+  },
+  {
+    "test_id": "EDGE-no_time",
+    "fixture": "edges/no_time.json",
+    "expected": {
+      "timestamps": null,
+      "calendar": "insufficient-data",
+      "no_imputed_time": true
+    }
+  },
+  {
+    "test_id": "EDGE-date_only",
+    "fixture": "edges/date_only.json",
+    "expected": {
+      "timestamps": [
+        "2026-01-01",
+        "2026-01-02"
+      ],
+      "streak": 2,
+      "prime": "insufficient-data"
+    }
+  },
+  {
+    "test_id": "EDGE-dst_ambiguous",
+    "fixture": "edges/dst_ambiguous.json",
+    "expected": {
+      "local_time": "2026-10-25 02:30",
+      "zone": "Europe/Berlin",
+      "offsets_missing": true,
+      "response_duration": "review",
+      "never_invent_offset": true
+    }
+  },
+  {
+    "test_id": "EDGE-hotcold_14",
+    "fixture": "edges/hotcold_14.json",
+    "expected": {
+      "day_counts": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "baseline": 10,
+      "status": "available",
+      "phases": []
+    }
+  },
+  {
+    "test_id": "EDGE-hotcold_13",
+    "fixture": "edges/hotcold_13.json",
+    "expected": {
+      "day_counts": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "status": "insufficient-data"
+    }
+  },
+  {
+    "test_id": "EDGE-signature_99",
+    "fixture": "edges/signature_99.json",
+    "expected": {
+      "rankable_tokens": [
+        99,
+        100
+      ],
+      "signature": "insufficient-data"
+    }
+  },
+  {
+    "test_id": "EDGE-signature_100",
+    "fixture": "edges/signature_100.json",
+    "expected": {
+      "rankable_tokens": [
+        100,
+        100
+      ],
+      "coffee_score": 30,
+      "coffee_qualifies": true
+    }
+  },
+  {
+    "test_id": "EDGE-multiple_questions",
+    "fixture": "edges/multiple_questions.json",
+    "expected": {
+      "question_acts": 2
+    }
+  },
+  {
+    "test_id": "EDGE-sarcastic_social",
+    "fixture": "edges/sarcastic_social.json",
+    "expected": {
+      "agreement": "uncertain",
+      "automatic": false
+    }
+  },
+  {
+    "test_id": "EDGE-mention_address",
+    "fixture": "edges/mention_address.json",
+    "expected": {
+      "labels": [
+        "mention_of_other_person",
+        "direct_name_address"
+      ]
+    }
+  },
+  {
+    "test_id": "EDGE-third_event",
+    "fixture": "edges/third_event.json",
+    "expected": {
+      "first_is_dyadic_plan": false,
+      "second_is_candidate": true,
+      "neither_auto_confirmed": true
+    }
+  },
+  {
+    "test_id": "EDGE-insider_2",
+    "fixture": "edges/insider_2.json",
+    "expected": {
+      "acts": 2,
+      "shared_insider": "insufficient-data"
+    }
+  },
+  {
+    "test_id": "EDGE-insider_3",
+    "fixture": "edges/insider_3.json",
+    "expected": {
+      "acts": 3,
+      "blocks": 3,
+      "authors": 2,
+      "shared_reference": true,
+      "requires_user_review": true
+    }
+  },
+  {
+    "test_id": "EDGE-topic_vs_move",
+    "fixture": "edges/topic_vs_move.json",
+    "expected": {
+      "gap_minutes": 2,
+      "topic_start": true,
+      "first_move": false
+    }
+  },
+  {
+    "test_id": "EDGE-move_359",
+    "fixture": "edges/move_359.json",
+    "expected": {
+      "gap_minutes": 239,
+      "pause_alone_restart_candidate": false
+    }
+  },
+  {
+    "test_id": "EDGE-move_400",
+    "fixture": "edges/move_400.json",
+    "expected": {
+      "gap_minutes": 240,
+      "restart_candidate": true,
+      "not_automatically_confirmed": true
+    }
+  },
+  {
+    "test_id": "EDGE-block_500",
+    "fixture": "edges/block_500.json",
+    "expected": {
+      "same_sender": true,
+      "gap_seconds": 300,
+      "blocks": 1,
+      "answer_words": 4,
+      "short": false
+    }
+  },
+  {
+    "test_id": "EDGE-block_501",
+    "fixture": "edges/block_501.json",
+    "expected": {
+      "same_sender": true,
+      "gap_seconds": 301,
+      "blocks": 2
+    }
+  },
+  {
+    "test_id": "EDGE-short_3",
+    "fixture": "edges/short_3.json",
+    "expected": {
+      "word_tokens": 3,
+      "short_if_valid_response": true,
+      "no_interest_claim": true
+    }
+  },
+  {
+    "test_id": "EDGE-short_4",
+    "fixture": "edges/short_4.json",
+    "expected": {
+      "word_tokens": 4,
+      "short": false
+    }
+  },
+  {
+    "test_id": "EDGE-quotes_ok",
+    "fixture": "edges/quotes_ok.json",
+    "expected": {
+      "reply": "unresolved",
+      "no_similar_message_link": true
+    }
+  }
+]

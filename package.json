@@ -1,0 +1,1 @@
+{"name":"zwischen-den-zeilen-static-preview","version":"0.1.0","private":true,"type":"module","scripts":{"dev":"node server.mjs","start":"node server.mjs","test":"node --test tests/preview.test.mjs","test:fixtures":"node --test tests/v1/validate.test.mjs"},"engines":{"node":">=24"}}

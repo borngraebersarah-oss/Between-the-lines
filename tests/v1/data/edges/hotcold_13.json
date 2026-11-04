@@ -1,0 +1,939 @@
+{
+  "id": "hotcold_13",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "hotcold_13_d0_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d0_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-02T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-02T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-02T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-02T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-02T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d1_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-03T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-03T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-03T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-03T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-03T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-03T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-03T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-03T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-03T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d2_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-03T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-04T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-04T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-04T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-04T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-04T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-04T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-04T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-04T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-04T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d3_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-04T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-05T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-05T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-05T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-05T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-05T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-05T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-05T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-05T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-05T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d4_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-05T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-06T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-06T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-06T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-06T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-06T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-06T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-06T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-06T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-06T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d5_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-06T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-07T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-07T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-07T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-07T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-07T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-07T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-07T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-07T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-07T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d6_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-07T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-08T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-08T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-08T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-08T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-08T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-08T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-08T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-08T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-08T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d7_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-08T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-09T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-09T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-09T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-09T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-09T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-09T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-09T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-09T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-09T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d8_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-09T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-10T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-10T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-10T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-10T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-10T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-10T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-10T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-10T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-10T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d9_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-10T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-11T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-11T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-11T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-11T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-11T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-11T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-11T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-11T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-11T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d10_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-11T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-12T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-12T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-12T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-12T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-12T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-12T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-12T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-12T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-12T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d11_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-12T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-13T12:00:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-13T12:01:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-13T12:02:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_3",
+      "sender": "edge_B",
+      "timestamp": "2026-01-13T12:03:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_4",
+      "sender": "edge_A",
+      "timestamp": "2026-01-13T12:04:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_5",
+      "sender": "edge_B",
+      "timestamp": "2026-01-13T12:05:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_6",
+      "sender": "edge_A",
+      "timestamp": "2026-01-13T12:06:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_7",
+      "sender": "edge_B",
+      "timestamp": "2026-01-13T12:07:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_8",
+      "sender": "edge_A",
+      "timestamp": "2026-01-13T12:08:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    },
+    {
+      "id": "hotcold_13_d12_9",
+      "sender": "edge_B",
+      "timestamp": "2026-01-13T12:09:00+01:00",
+      "type": "text",
+      "text": "Hallo"
+    }
+  ],
+  "expected": {
+    "day_counts": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "status": "insufficient-data"
+  },
+  "coverage": {
+    "from": "2026-01-01",
+    "to": "2026-01-13",
+    "complete_calendar_days": true
+  }
+}

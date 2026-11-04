@@ -1,0 +1,27 @@
+{
+  "id": "no_time",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "no_time_m0",
+      "sender": "edge_A",
+      "timestamp": null,
+      "type": "text",
+      "text": "Hallo",
+      "timestamp_precision": "unknown"
+    },
+    {
+      "id": "no_time_m1",
+      "sender": "edge_B",
+      "timestamp": null,
+      "type": "text",
+      "text": "Guten Abend",
+      "timestamp_precision": "unknown"
+    }
+  ],
+  "expected": {
+    "timestamps": null,
+    "calendar": "insufficient-data",
+    "no_imputed_time": true
+  }
+}

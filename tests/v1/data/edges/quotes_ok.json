@@ -1,0 +1,31 @@
+{
+  "id": "quotes_ok",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "quotes_ok_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "id": "quotes_ok_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:02:00+01:00",
+      "type": "text",
+      "text": "OK"
+    },
+    {
+      "id": "quotes_ok_m2",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:04:00+01:00",
+      "type": "text",
+      "text": "> OK\nMeinst du das?"
+    }
+  ],
+  "expected": {
+    "reply": "unresolved",
+    "no_similar_message_link": true
+  }
+}

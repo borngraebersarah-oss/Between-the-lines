@@ -1,0 +1,139 @@
+[
+  {
+    "id": "HYB-restart",
+    "source": {
+      "id": "hyb_restart_a",
+      "text": "Gute Nacht.",
+      "timestamp": "2026-01-01T23:00:00+01:00"
+    },
+    "target": {
+      "id": "hyb_restart_b",
+      "text": "Neues Gespräch, ich wollte dich etwas anderes fragen.",
+      "timestamp": "2026-01-02T02:00:00.000Z"
+    },
+    "gap_minutes": 240,
+    "expected": "new_conversation",
+    "profiles": null,
+    "scope": "synthetic author semantic annotation; temporal rest validity separately tested",
+    "metrics": [
+      "precision",
+      "recall",
+      "F1",
+      "auto_precision",
+      "false_auto_negative",
+      "critical_errors"
+    ],
+    "thresholds": "BLOCKED independent real-language evaluation and explicit decision",
+    "review_only": "only if separately released and remaining gates passed"
+  },
+  {
+    "id": "HYB-continuation",
+    "source": {
+      "id": "hyb_continuation_a",
+      "text": "Passt der Termin?",
+      "timestamp": "2026-01-01T12:00:00+01:00"
+    },
+    "target": {
+      "id": "hyb_continuation_b",
+      "text": "Zu deiner gestrigen Frage: Der Schrank ist blau.",
+      "timestamp": "2026-01-02T11:00:00.000Z"
+    },
+    "gap_minutes": 1440,
+    "expected": "continuation",
+    "profiles": null,
+    "scope": "synthetic author semantic annotation; temporal rest validity separately tested",
+    "metrics": [
+      "precision",
+      "recall",
+      "F1",
+      "auto_precision",
+      "false_auto_negative",
+      "critical_errors"
+    ],
+    "thresholds": "BLOCKED independent real-language evaluation and explicit decision",
+    "review_only": "only if separately released and remaining gates passed"
+  },
+  {
+    "id": "HYB-response",
+    "source": {
+      "id": "hyb_response_a",
+      "text": "Passt der Termin?",
+      "timestamp": "2026-01-01T12:00:00+01:00"
+    },
+    "target": {
+      "id": "hyb_response_b",
+      "text": "Ja, der Termin passt.",
+      "timestamp": "2026-01-01T11:09:00.000Z"
+    },
+    "gap_minutes": 9,
+    "expected": "valid_response",
+    "profiles": null,
+    "scope": "synthetic author semantic annotation; temporal rest validity separately tested",
+    "metrics": [
+      "precision",
+      "recall",
+      "F1",
+      "auto_precision",
+      "false_auto_negative",
+      "critical_errors"
+    ],
+    "thresholds": "BLOCKED independent real-language evaluation and explicit decision",
+    "review_only": "only if separately released and remaining gates passed"
+  },
+  {
+    "id": "HYB-rest",
+    "source": {
+      "id": "hyb_rest_a",
+      "text": "Gute Nacht.",
+      "timestamp": "2026-01-01T23:00:00+01:00"
+    },
+    "target": {
+      "id": "hyb_rest_b",
+      "text": "Guten Morgen.",
+      "timestamp": "2026-01-02T06:00:00.000Z"
+    },
+    "gap_minutes": 480,
+    "expected": "rest_candidate",
+    "profiles": {
+      "both": "23:00–07:00"
+    },
+    "scope": "synthetic author semantic annotation; temporal rest validity separately tested",
+    "metrics": [
+      "precision",
+      "recall",
+      "F1",
+      "auto_precision",
+      "false_auto_negative",
+      "critical_errors"
+    ],
+    "thresholds": "BLOCKED independent real-language evaluation and explicit decision",
+    "review_only": "only if separately released and remaining gates passed"
+  },
+  {
+    "id": "HYB-rest_missing",
+    "source": {
+      "id": "hyb_rest_missing_a",
+      "text": "Gute Nacht.",
+      "timestamp": "2026-01-01T23:00:00+01:00"
+    },
+    "target": {
+      "id": "hyb_rest_missing_b",
+      "text": "",
+      "timestamp": "2026-01-02T06:00:00.000Z"
+    },
+    "gap_minutes": 480,
+    "expected": "review-required",
+    "profiles": null,
+    "scope": "synthetic author semantic annotation; temporal rest validity separately tested",
+    "metrics": [
+      "precision",
+      "recall",
+      "F1",
+      "auto_precision",
+      "false_auto_negative",
+      "critical_errors"
+    ],
+    "thresholds": "BLOCKED independent real-language evaluation and explicit decision",
+    "review_only": "only if separately released and remaining gates passed"
+  }
+]

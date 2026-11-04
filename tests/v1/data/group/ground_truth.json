@@ -1,0 +1,32 @@
+{
+  "chat_id": "synthetic_group",
+  "dyad": [
+    "group_p0",
+    "group_p1"
+  ],
+  "counted_ids": [
+    "group_m1",
+    "group_m2",
+    "group_m4",
+    "group_m5"
+  ],
+  "context_only_ids": [
+    "group_m0",
+    "group_m3"
+  ],
+  "same_names_distinct": true,
+  "no_start_for_A_reply_to_C": "group_m1",
+  "event_about_third": "group_m2",
+  "dyad_change": {
+    "dyad": [
+      "group_p0",
+      "group_p2"
+    ],
+    "counted_ids": [
+      "group_m0",
+      "group_m1",
+      "group_m4"
+    ],
+    "old_dyad_corrections_not_reassigned": true
+  }
+}

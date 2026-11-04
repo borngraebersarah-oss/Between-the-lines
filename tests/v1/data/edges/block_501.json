@@ -1,0 +1,25 @@
+{
+  "id": "block_501",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "block_501_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Ja"
+    },
+    {
+      "id": "block_501_m1",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:05:01+01:00",
+      "type": "text",
+      "text": "aber erst morgen"
+    }
+  ],
+  "expected": {
+    "same_sender": true,
+    "gap_seconds": 301,
+    "blocks": 2
+  }
+}

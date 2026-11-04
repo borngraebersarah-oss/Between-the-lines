@@ -1,0 +1,18 @@
+{
+  "id": "short_3",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "short_3_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Ich liebe dich"
+    }
+  ],
+  "expected": {
+    "word_tokens": 3,
+    "short_if_valid_response": true,
+    "no_interest_claim": true
+  }
+}

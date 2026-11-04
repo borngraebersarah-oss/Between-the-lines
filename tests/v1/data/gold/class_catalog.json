@@ -1,0 +1,2648 @@
+[
+  {
+    "feature_id": "questions",
+    "label_id": "genuine_information_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0001"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0002"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0003"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0004"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0005"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0006"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0007"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "questions",
+    "label_id": "clarification_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0008"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0009"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0010"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0011"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0012"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0013"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0014"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "questions",
+    "label_id": "planning_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0015"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0016"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0017"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0018"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0019"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0020"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0021"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "questions",
+    "label_id": "rhetorical_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0022"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0023"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0024"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0025"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0026"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0027"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0028"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "questions",
+    "label_id": "quoted_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0029"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0030"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0031"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0032"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0033"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0034"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0035"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "questions",
+    "label_id": "third_party_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0036"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0037"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0038"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0039"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0040"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0041"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0042"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "questions",
+    "label_id": "uncertain_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0043"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0044"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0045"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0046"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0047"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0048"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0049"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "questions",
+    "label_id": "not_question",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0050"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0051"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0052"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0053"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0054"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0055"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0056"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "direct_name_address",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0057"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0058"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0059"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0060"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0061"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0062"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0063"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "nickname_address",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0064"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0065"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0066"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0067"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0068"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0069"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0070"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "affectionate_address",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0071"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0072"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0073"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0074"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0075"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0076"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0077"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "generic_address",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0078"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0079"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0080"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0081"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0082"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0083"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0084"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "mention_of_other_person",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0085"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0086"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0087"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0088"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0089"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0090"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0091"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "mention_of_third_person",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0092"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0093"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0094"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0095"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0096"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0097"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0098"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "quoted_address",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0099"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0100"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0101"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0102"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0103"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0104"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0105"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "ambiguous_address",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0106"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0107"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0108"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0109"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0110"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0111"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0112"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "names",
+    "label_id": "no_address",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0113"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0114"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0115"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0116"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0117"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0118"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0119"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "work",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0120"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0121"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0122"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0123"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0124"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0125"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0126"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "everyday",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0127"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0128"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0129"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0130"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0131"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0132"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0133"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "meetings",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0134"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0135"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0136"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0137"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0138"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0139"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0140"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "travel",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0141"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0142"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0143"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0144"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0145"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0146"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0147"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "leisure",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0148"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0149"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0150"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0151"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0152"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0153"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0154"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "third_people",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0155"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0156"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0157"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0158"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0159"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0160"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0161"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "health",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0162"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0163"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0164"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0165"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0166"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0167"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0168"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "media",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0169"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0170"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0171"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0172"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0173"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0174"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0175"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "relationship",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0176"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0177"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0178"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0179"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0180"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0181"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0182"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "other",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0183"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0184"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0185"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0186"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0187"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0188"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0189"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "unclassifiable",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0190"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0191"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0192"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0193"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0194"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0195"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0196"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topics",
+    "label_id": "no_topic",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0197"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0198"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0199"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0200"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0201"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0202"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0203"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "social",
+    "label_id": "compliment",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0204"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0205"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0206"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0207"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0208"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0209"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0210"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "social",
+    "label_id": "thanks",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0211"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0212"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0213"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0214"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0215"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0216"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0217"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "social",
+    "label_id": "apology",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0218"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0219"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0220"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0221"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0222"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0223"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0224"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "social",
+    "label_id": "agreement",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0225"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0226"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0227"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0228"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0229"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0230"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0231"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "social",
+    "label_id": "disagreement",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0232"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0233"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0234"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0235"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0236"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0237"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0238"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "social",
+    "label_id": "no_signal",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0239"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0240"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0241"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0242"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0243"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0244"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0245"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "social",
+    "label_id": "uncertain_signal",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0246"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0247"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0248"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0249"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0250"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0251"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0252"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "event_mention",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0253"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0254"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0255"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0256"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0257"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0258"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0259"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "event_candidate",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0260"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0261"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0262"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0263"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0264"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0265"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0266"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "user_confirmed_event",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0267"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0268"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0269"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0270"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0271"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0272"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0273"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "user_created_event",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0274"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0275"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0276"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0277"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0278"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0279"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0280"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "rejected_candidate",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0281"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0282"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0283"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0284"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0285"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0286"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0287"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "not_event",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0288"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0289"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0290"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0291"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0292"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0293"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0294"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "uncertain_event",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0295"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0296"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0297"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0298"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0299"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0300"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0301"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "shared_time",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0302"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0303"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0304"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0305"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0306"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0307"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0308"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "shared_future",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0309"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0310"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0311"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0312"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0313"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0314"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0315"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "closeness",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0316"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0317"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0318"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0319"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0320"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0321"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0322"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "insider",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0323"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0324"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0325"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0326"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0327"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0328"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0329"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "openness",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0330"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0331"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0332"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0333"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0334"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0335"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0336"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "turning_point",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0337"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0338"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0339"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0340"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0341"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0342"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0343"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "lifeevents",
+    "label_id": "custom",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0344"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0345"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0346"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0347"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0348"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0349"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0350"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "humor",
+    "label_id": "laugh_emoji",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0351"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0352"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0353"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0354"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0355"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0356"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0357"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "humor",
+    "label_id": "laugh_text",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0358"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0359"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0360"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0361"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0362"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0363"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0364"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "humor",
+    "label_id": "explicit_humor_response",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0365"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0366"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0367"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0368"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0369"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0370"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0371"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "humor",
+    "label_id": "insider_candidate",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0372"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0373"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0374"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0375"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0376"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0377"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0378"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "humor",
+    "label_id": "shared_insider",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0379"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0380"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0381"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0382"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0383"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0384"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0385"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "humor",
+    "label_id": "not_insider",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0386"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0387"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0388"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0389"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0390"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0391"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0392"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "humor",
+    "label_id": "uncertain_humor",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0393"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0394"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0395"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0396"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0397"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0398"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0399"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topicstarts",
+    "label_id": "new_topic",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0400"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0401"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0402"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0403"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0404"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0405"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0406"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topicstarts",
+    "label_id": "resumed_topic",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0407"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0408"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0409"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0410"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0411"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0412"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0413"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topicstarts",
+    "label_id": "topic_response",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0414"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0415"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0416"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0417"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0418"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0419"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0420"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topicstarts",
+    "label_id": "acknowledgement",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0421"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0422"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0423"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0424"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0425"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0426"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0427"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topicstarts",
+    "label_id": "uncertain_start",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0428"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0429"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0430"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0431"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0432"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0433"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0434"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  },
+  {
+    "feature_id": "topicstarts",
+    "label_id": "no_topic_impulse",
+    "slices": [
+      {
+        "slice": "positive",
+        "split": "final-synthetic",
+        "record": "gold_0435"
+      },
+      {
+        "slice": "negative",
+        "split": "final-synthetic",
+        "record": "gold_0436"
+      },
+      {
+        "slice": "uncertain",
+        "split": "final-synthetic",
+        "record": "gold_0437"
+      },
+      {
+        "slice": "third-party",
+        "split": "final-synthetic",
+        "record": "gold_0438"
+      },
+      {
+        "slice": "quote",
+        "split": "final-synthetic",
+        "record": "gold_0439"
+      },
+      {
+        "slice": "mixed-language",
+        "split": "final-synthetic",
+        "record": "gold_0440"
+      },
+      {
+        "slice": "boundary",
+        "split": "final-synthetic",
+        "record": "gold_0441"
+      }
+    ],
+    "note": "Negative/ineligible and uncertain applicability must be reviewed; no final real-language gate coverage asserted."
+  }
+]

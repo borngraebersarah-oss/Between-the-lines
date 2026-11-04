@@ -1,0 +1,24 @@
+{
+  "id": "insider_2",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "insider_2_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Unser Wolkenknödel!"
+    },
+    {
+      "id": "insider_2_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-02T12:00:00+01:00",
+      "type": "text",
+      "text": "Wolkenknödel, klar"
+    }
+  ],
+  "expected": {
+    "acts": 2,
+    "shared_insider": "insufficient-data"
+  }
+}

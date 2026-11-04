@@ -1,0 +1,38 @@
+{
+  "policy": "families never split by individual message",
+  "main_chats": "development",
+  "eligible_negatives": "final-synthetic; supplementary controls including not_insider positive control",
+  "class_challenges": "final-synthetic; all label families and all seven slices",
+  "calibration": "reserved; independently authored calibration corpus required before threshold tuning",
+  "limitation": "Synthetic challenge set is single-author and not independently adjudicated. Real-language release evaluation remains BLOCKED. Do not tune on final-synthetic; after tuning exposure replace the holdout.",
+  "class_counts": [
+    {
+      "feature": "questions",
+      "classes": 8
+    },
+    {
+      "feature": "names",
+      "classes": 9
+    },
+    {
+      "feature": "topics",
+      "classes": 12
+    },
+    {
+      "feature": "social",
+      "classes": 7
+    },
+    {
+      "feature": "lifeevents",
+      "classes": 14
+    },
+    {
+      "feature": "humor",
+      "classes": 7
+    },
+    {
+      "feature": "topicstarts",
+      "classes": 6
+    }
+  ]
+}

@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "neg_questions_genuine_information_question",
+    "feature_id": "questions",
+    "label_id": "genuine_information_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_genuine_information_question_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_questions_clarification_question",
+    "feature_id": "questions",
+    "label_id": "clarification_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_clarification_question_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_questions_planning_question",
+    "feature_id": "questions",
+    "label_id": "planning_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_planning_question_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_questions_rhetorical_question",
+    "feature_id": "questions",
+    "label_id": "rhetorical_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_rhetorical_question_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_questions_quoted_question",
+    "feature_id": "questions",
+    "label_id": "quoted_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_quoted_question_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_questions_third_party_question",
+    "feature_id": "questions",
+    "label_id": "third_party_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_third_party_question_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_questions_uncertain_question",
+    "feature_id": "questions",
+    "label_id": "uncertain_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_uncertain_question_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "not-applicable",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_questions_not_question",
+    "feature_id": "questions",
+    "label_id": "not_question",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_questions_not_question_m",
+      "sender": "gold_A",
+      "text": "Welche Farbe hat dein neuer Schal?",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_direct_name_address",
+    "feature_id": "names",
+    "label_id": "direct_name_address",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_direct_name_address_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_nickname_address",
+    "feature_id": "names",
+    "label_id": "nickname_address",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_nickname_address_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_affectionate_address",
+    "feature_id": "names",
+    "label_id": "affectionate_address",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_affectionate_address_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_generic_address",
+    "feature_id": "names",
+    "label_id": "generic_address",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_generic_address_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_mention_of_other_person",
+    "feature_id": "names",
+    "label_id": "mention_of_other_person",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_mention_of_other_person_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_mention_of_third_person",
+    "feature_id": "names",
+    "label_id": "mention_of_third_person",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_mention_of_third_person_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_quoted_address",
+    "feature_id": "names",
+    "label_id": "quoted_address",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_quoted_address_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_ambiguous_address",
+    "feature_id": "names",
+    "label_id": "ambiguous_address",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_ambiguous_address_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "not-applicable",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_names_no_address",
+    "feature_id": "names",
+    "label_id": "no_address",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_names_no_address_m",
+      "sender": "gold_A",
+      "text": "Velumi, dein Schal liegt hier.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_work",
+    "feature_id": "topics",
+    "label_id": "work",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_work_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_everyday",
+    "feature_id": "topics",
+    "label_id": "everyday",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_everyday_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_meetings",
+    "feature_id": "topics",
+    "label_id": "meetings",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_meetings_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_travel",
+    "feature_id": "topics",
+    "label_id": "travel",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_travel_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_leisure",
+    "feature_id": "topics",
+    "label_id": "leisure",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_leisure_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_third_people",
+    "feature_id": "topics",
+    "label_id": "third_people",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_third_people_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_health",
+    "feature_id": "topics",
+    "label_id": "health",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_health_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_media",
+    "feature_id": "topics",
+    "label_id": "media",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_media_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_relationship",
+    "feature_id": "topics",
+    "label_id": "relationship",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_relationship_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_other",
+    "feature_id": "topics",
+    "label_id": "other",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_other_m",
+      "sender": "gold_A",
+      "text": "Ich arbeite im Büro.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_unclassifiable",
+    "feature_id": "topics",
+    "label_id": "unclassifiable",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_unclassifiable_m",
+      "sender": "gold_A",
+      "text": "Siebzehn ist eine Primzahl.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "not-applicable",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topics_no_topic",
+    "feature_id": "topics",
+    "label_id": "no_topic",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topics_no_topic_m",
+      "sender": "gold_A",
+      "text": "Der berufliche Bericht ist fertig.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_social_compliment",
+    "feature_id": "social",
+    "label_id": "compliment",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_social_compliment_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_social_thanks",
+    "feature_id": "social",
+    "label_id": "thanks",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_social_thanks_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_social_apology",
+    "feature_id": "social",
+    "label_id": "apology",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_social_apology_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_social_agreement",
+    "feature_id": "social",
+    "label_id": "agreement",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_social_agreement_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_social_disagreement",
+    "feature_id": "social",
+    "label_id": "disagreement",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_social_disagreement_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_social_no_signal",
+    "feature_id": "social",
+    "label_id": "no_signal",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_social_no_signal_m",
+      "sender": "gold_A",
+      "text": "Deine Erklärung war wirklich verständlich.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_social_uncertain_signal",
+    "feature_id": "social",
+    "label_id": "uncertain_signal",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_social_uncertain_signal_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "not-applicable",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_event_mention",
+    "feature_id": "lifeevents",
+    "label_id": "event_mention",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_event_mention_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_event_candidate",
+    "feature_id": "lifeevents",
+    "label_id": "event_candidate",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_event_candidate_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_user_confirmed_event",
+    "feature_id": "lifeevents",
+    "label_id": "user_confirmed_event",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_user_confirmed_event_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_user_created_event",
+    "feature_id": "lifeevents",
+    "label_id": "user_created_event",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_user_created_event_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_rejected_candidate",
+    "feature_id": "lifeevents",
+    "label_id": "rejected_candidate",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_rejected_candidate_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_not_event",
+    "feature_id": "lifeevents",
+    "label_id": "not_event",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_not_event_m",
+      "sender": "gold_A",
+      "text": "Unser Besuch im Atelier am 12. Mai war kurz.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_uncertain_event",
+    "feature_id": "lifeevents",
+    "label_id": "uncertain_event",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_uncertain_event_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "not-applicable",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_shared_time",
+    "feature_id": "lifeevents",
+    "label_id": "shared_time",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_shared_time_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_shared_future",
+    "feature_id": "lifeevents",
+    "label_id": "shared_future",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_shared_future_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_closeness",
+    "feature_id": "lifeevents",
+    "label_id": "closeness",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_closeness_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_insider",
+    "feature_id": "lifeevents",
+    "label_id": "insider",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_insider_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_openness",
+    "feature_id": "lifeevents",
+    "label_id": "openness",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_openness_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_turning_point",
+    "feature_id": "lifeevents",
+    "label_id": "turning_point",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_turning_point_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_lifeevents_custom",
+    "feature_id": "lifeevents",
+    "label_id": "custom",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_lifeevents_custom_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_humor_laugh_emoji",
+    "feature_id": "humor",
+    "label_id": "laugh_emoji",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_humor_laugh_emoji_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_humor_laugh_text",
+    "feature_id": "humor",
+    "label_id": "laugh_text",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_humor_laugh_text_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_humor_explicit_humor_response",
+    "feature_id": "humor",
+    "label_id": "explicit_humor_response",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_humor_explicit_humor_response_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_humor_insider_candidate",
+    "feature_id": "humor",
+    "label_id": "insider_candidate",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_humor_insider_candidate_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_humor_shared_insider",
+    "feature_id": "humor",
+    "label_id": "shared_insider",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_humor_shared_insider_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_humor_not_insider",
+    "feature_id": "humor",
+    "label_id": "not_insider",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_humor_not_insider_m",
+      "sender": "gold_A",
+      "text": "😂",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "positive",
+      "label_not_present": false
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_humor_uncertain_humor",
+    "feature_id": "humor",
+    "label_id": "uncertain_humor",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_humor_uncertain_humor_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "not-applicable",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topicstarts_new_topic",
+    "feature_id": "topicstarts",
+    "label_id": "new_topic",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topicstarts_new_topic_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topicstarts_resumed_topic",
+    "feature_id": "topicstarts",
+    "label_id": "resumed_topic",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topicstarts_resumed_topic_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topicstarts_topic_response",
+    "feature_id": "topicstarts",
+    "label_id": "topic_response",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topicstarts_topic_response_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topicstarts_acknowledgement",
+    "feature_id": "topicstarts",
+    "label_id": "acknowledgement",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topicstarts_acknowledgement_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topicstarts_uncertain_start",
+    "feature_id": "topicstarts",
+    "label_id": "uncertain_start",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topicstarts_uncertain_start_m",
+      "sender": "gold_A",
+      "text": "Der Becher steht auf dem Tisch.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "not-applicable",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  },
+  {
+    "id": "neg_topicstarts_no_topic_impulse",
+    "feature_id": "topicstarts",
+    "label_id": "no_topic_impulse",
+    "split": "final-synthetic",
+    "message": {
+      "id": "neg_topicstarts_no_topic_impulse_m",
+      "sender": "gold_A",
+      "text": "Anderes Thema: mein neues Fahrrad.",
+      "timestamp": "2026-02-18T19:00:00+01:00"
+    },
+    "expected": {
+      "classification": "negative",
+      "label_not_present": true
+    },
+    "annotation_status": "single-author; lifecycle labels evaluated as state not utterance"
+  }
+]

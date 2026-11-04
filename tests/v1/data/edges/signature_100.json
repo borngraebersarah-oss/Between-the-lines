@@ -1,0 +1,28 @@
+{
+  "id": "signature_100",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "signature_100_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-01-01T12:00:00+01:00",
+      "type": "text",
+      "text": "Kaffee Kaffee Kaffee Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke Wolke "
+    },
+    {
+      "id": "signature_100_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-01-01T12:02:00+01:00",
+      "type": "text",
+      "text": "Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee Tee "
+    }
+  ],
+  "expected": {
+    "rankable_tokens": [
+      100,
+      100
+    ],
+    "coffee_score": 30,
+    "coffee_qualifies": true
+  }
+}

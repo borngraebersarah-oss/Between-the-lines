@@ -1,0 +1,33 @@
+{
+  "id": "dst_ambiguous",
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "dst_ambiguous_m0",
+      "sender": "edge_A",
+      "timestamp": "2026-10-25T02:30:00",
+      "type": "text",
+      "text": "Vorher",
+      "timestamp_precision": "minute",
+      "timezone": "Europe/Berlin",
+      "offset": null
+    },
+    {
+      "id": "dst_ambiguous_m1",
+      "sender": "edge_B",
+      "timestamp": "2026-10-25T02:30:00",
+      "type": "text",
+      "text": "Nachher",
+      "timestamp_precision": "minute",
+      "timezone": "Europe/Berlin",
+      "offset": null
+    }
+  ],
+  "expected": {
+    "local_time": "2026-10-25 02:30",
+    "zone": "Europe/Berlin",
+    "offsets_missing": true,
+    "response_duration": "review",
+    "never_invent_offset": true
+  }
+}

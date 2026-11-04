@@ -1,0 +1,37 @@
+Zwischen den Zeilen – überarbeitete App-Vorabversion, 04.11.2026
+
+Basis: neuere React-App im vorhandenen Originalprojekt, Originalnavigation,
+Kategoriendarstellung, Artwork, Themes, Icons und Styles übernommen.
+Vom Nutzer genannte ältere HTML-Datei nur als visuelle Orientierung gelesen.
+Keine privaten Legacy-Inhalte oder Mock-Analyseadapter in den Website-Build übernommen.
+
+Build: Vite-Produktion erfolgreich. Alle Website-Dateien direkt im ZIP-Root.
+Kein Workflow und keine verschachtelten Ordner erforderlich.
+
+Automatisierte Prüfung des tatsächlichen gebauten UI:
+- leerer Start ohne Demo-Chats; chatbezogene Navigation erst nach Auswahl
+- Original-TXT A mit 1418 Beiträgen, Vorschau, Pflichtbestätigung, Speicherung
+- Dashboard und alle sechs Kategorien auswählbar
+- Texting: 10013 Wörter, Personenbelege mit 710 Nachrichten
+- Silence: 2157 Minuten, Ausschluss und Undo mit echter Neuberechnung
+- Begleiter unavailable, Home verlässt den aktiven Chatkontext
+- kein Demo-/Fixture-/Mockadapter im Build
+
+Engine ist unverändert aus der zuvor geprüften Vorabversion übernommen:
+acht berechnete Analysen gegen Original-Sollwerte für A/B/C geprüft.
+Originalfixturezahlen: A 1418, B 1236, C 1797. Fixtures unverändert.
+
+Zusätzliche echte Browserprüfung:
+- leerer Start und Importdialog
+- Paste-Import eines separaten kleinen, rein fiktiven Prüftexts
+- Dateiimport der vollständigen Original-TXT A, 1418 Beiträge
+- Analyse/Kategorienwechsel, Funktionsunterseiten und unavailable Response
+- Prime Time aus Original A: 19 Uhr, 852 Beiträge, 60,1 Prozent
+- vollständige Prime-Belegliste: 852 Nachrichten, 50 pro Seite
+- Mobilansicht bei 390 x 844, beide Themes, Desktop-Kategorien
+- Theme-Wechsel in Profil und vorhandene Hauptnavigation
+
+Nicht behauptet: vollständige V1-Abnahme, Prüfung sämtlicher Browser,
+produktive Privacy-/AI-Release-Gates, tatsächliches GitHub-Deployment.
+GitHub-Upload und Pages-Einstellung muss Sarah im eigenen Repository ausführen.
+Keine Produktions-KI, keine Geheimnisse oder echten Chatbackups verpackt.
